@@ -15,7 +15,6 @@ a{color:inherit}
 .wrap{width:min(1120px,100% - 2.5rem);margin-inline:auto}
 h1,h2,h3{color:var(--ink);line-height:1.1;margin:0;font-weight:800;letter-spacing:-.02em}
 h2{font-size:clamp(1.9rem,4vw,2.8rem)}
-/* header */
 header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
 .logo{display:flex;align-items:center;gap:.5rem;font-weight:800;color:var(--ink);text-decoration:none;font-size:1.05rem}
@@ -280,4 +279,3 @@ window.addEventListener('hashchange',route);route();
 })();
 </script>
 </body>
-</html>
